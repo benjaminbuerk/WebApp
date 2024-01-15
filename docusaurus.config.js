@@ -49,11 +49,7 @@ const config = {
           blogDescription: "",
           showReadingTime: true,
           path: 'podcast',
-          routeBasePath: 'podcast', // Updates the website routing
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: 'podcast',
         },
         theme: {
           customCss: './src/css/custom.css',
