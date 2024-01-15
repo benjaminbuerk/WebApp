@@ -41,13 +41,15 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/wiki', // Updates the website routing
+          path: 'wiki',
+          routeBasePath: 'wiki',
         },
         blog: {
           blogTitle: "",
           blogDescription: "",
           showReadingTime: true,
-          routeBasePath: '/podcast', // Updates the website routing
+          path: 'podcast',
+          routeBasePath: 'podcast', // Updates the website routing
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
