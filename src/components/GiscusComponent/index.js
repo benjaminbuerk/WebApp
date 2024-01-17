@@ -8,7 +8,8 @@ export default function GiscusComponent() {
   return (
     <Giscus    
       repo="benjaminbuerk/WebApp"
-      repoId="156300692"
+      //repoId="156300692"
+      repoId="R_kgDOLEG5-w"
       category="General"
       categoryId="DIC_kwDOLEG5-84Ccdcy"  // E.g. id of "General"
       mapping="url"                        // Important! To map comments to URL
