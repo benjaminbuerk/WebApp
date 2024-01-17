@@ -7,10 +7,6 @@ on:
     branches:
       - main
 
-defaults:
-  run:
-    working-directory: docs
-
 jobs:
   deploy:
     name: Build Docusaurus to gh-pages
