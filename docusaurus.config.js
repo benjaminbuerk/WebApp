@@ -119,7 +119,7 @@ const config = {
             items: [
               {
                 label: 'Wiki',
-                to: '/wiki',
+                to: '/wiki/intro',
               },
               {
                 label: 'GitHub',
