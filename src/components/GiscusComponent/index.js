@@ -7,8 +7,8 @@ export default function GiscusComponent() {
 
   return (
     <Giscus    
-      repo="nameOfYourGitHubAccount/nameOfCreatedRepository"
-      repoId="idOfCreatedRepo"
+      repo="benjaminbuerk/WebApp"
+      repoId="156300692"
       category="General"
       categoryId="DIC_kwDOLEG5-84Ccdcy"  // E.g. id of "General"
       mapping="url"                        // Important! To map comments to URL
