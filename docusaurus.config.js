@@ -46,7 +46,7 @@ const config = {
         blog: {
           blogTitle: "",
           blogDescription: "",
-          showReadingTime: true,
+          showReadingTime: false,
           path: 'podcast',
           routeBasePath: 'podcast',
         },
