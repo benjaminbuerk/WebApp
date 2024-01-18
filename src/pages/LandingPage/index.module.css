@@ -1,0 +1,53 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/** Stile für die einzelnen Blöcke  */
+  .container {
+    maxWidth: '800px';
+    margin: '0 auto';
+    padding: '20px';
+  }
+  .welcome {
+    background: '#f8f8f8';
+    padding: '40px';
+    borderRadius: '8px';
+    marginBottom: '20px';
+  }
+  .aboutMe {
+    background: '#fafafa';
+    padding: '30px';
+    borderRadius: '8px';
+    marginBottom: '20px';
+  }
+  .podcastBlog {
+    background: '#f9f9f9';
+    padding: '25px';
+    borderRadius: '8px';
+    marginBottom: '20px';
+  }
+  .videoCourse {
+    background: '#f8f8f8';
+    padding: '20px';
+    borderRadius: '8px';
+  }

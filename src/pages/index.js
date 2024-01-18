@@ -7,7 +7,8 @@ function Home() {
       <header className="hero">
         <div className="container">
           <h1>Willkommen auf meiner Landing Page!</h1>
-          <p>Deine Einführung oder Call-to-Action hier.</p>
+          <p>Hero-Bereich </p> 
+          <p>Deine Call-to-Action hier.</p>
         </div>
       </header>
       <section className="features">
@@ -15,6 +16,7 @@ function Home() {
           <div className="feature">
             <h2>Warum Uns Wählen?</h2>
             <p>Einige Gründe, die deine Besucher überzeugen sollen.</p>
+            <p>Informationen über das Unternehmen, Mission, Team</p>   
           </div>
           <div className="feature">
             <h2>Unsere Leistungen</h2>
@@ -28,7 +30,6 @@ function Home() {
           <div className="image-container">
             <img src="/img/facility1.jpg" alt="Einrichtung 1" />
             <img src="/img/facility2.jpg" alt="Einrichtung 2" />
-            {/* Füge weitere Bilder nach Bedarf hinzu */}
           </div>
         </div>
       </section>
@@ -60,7 +61,7 @@ function Home() {
       </section>
       <section className="contact">
         <div className="container">
-          <h2 className="section-title">Kontaktiere Uns</h2>
+          <h2 className="section-title">Kontaktiere Mich</h2>
           <p>Hast du Fragen oder möchtest mehr erfahren? Kontaktiere uns gerne!</p>
           <button className="cta-button">Kontakt</button>
         </div>

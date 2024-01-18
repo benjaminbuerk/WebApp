@@ -60,8 +60,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      /* image: 'img/docusaurus-social-card.jpg', */
       image: 'img/itasapro.png',
       navbar: {
         title: 'Home',
@@ -71,18 +69,20 @@ const config = {
         },
         // Links on the right side
         items: [
+          {to: '/podcast', label: 'Podcast', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Wiki',
           },
+          {to: '/About', label: 'About Me', position: 'left'},
+          {to: '/LandingPage', label: 'Landing', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://www.linkedin.com/in/benjaminbuerk/',
+            label: 'LinkedIn',
             position: 'right',
           },
-          {to: '/podcast', label: 'Podcast', position: 'left'},
         ],
       },
       footer: {

@@ -27,10 +27,21 @@
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #cc2b17;
+  --ifm-footer-background-color: #002d60;
+  --ifm-footer-title-color: #64c1cc;
+}
+
+.footer__link-item:hover {
+  color: #64c1cc;
 }
 
 /* ... vorheriger CSS Code ... */
+
+.hero {
+  background-color: #002d60;
+  color: white;
+  padding: 80px 0;
+}
 
 .features {
   background-color: #f1f1f1;
